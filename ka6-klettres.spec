@@ -8,7 +8,7 @@
 Summary:	klettres
 Name:		ka6-%{kaname}
 Version:	24.08.2
-Release:	1
+Release:	2
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
@@ -32,7 +32,7 @@ BuildRequires:	kf6-ki18n-devel >= %{kframever}
 BuildRequires:	kf6-knewstuff-devel >= %{kframever}
 BuildRequires:	kf6-kwidgetsaddons-devel >= %{kframever}
 BuildRequires:	ninja
-BuildRequires:	phonon-qt5-devel
+BuildRequires:	phonon-qt6-devel
 BuildRequires:	qt6-build >= %{qtver}
 BuildRequires:	rpmbuild(macros) >= 1.164
 BuildRequires:	shared-mime-info
