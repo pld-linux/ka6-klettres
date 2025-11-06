@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	25.08.2
+%define		kdeappsver	25.08.3
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		klettres
 Summary:	klettres
 Name:		ka6-%{kaname}
-Version:	25.08.2
-Release:	2
+Version:	25.08.3
+Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	e3a48959011ad3ed80a05b9de21dc7ef
+# Source0-md5:	8fa1b83e8b3f0295bd1f52eb42a16ac5
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
@@ -49,10 +49,9 @@ syllables in different languages. It is meant to help learning the
 very first sounds of a new language, for children or for adults.
 
 %description -l pl.UTF-8
-Celem KLettres jest pomoc w nauce alfabetu i czytania różnych
-sylab w różnych językach. Program ma pomagać uczyć się pierwszych
-dźwięków nowego języka, przeznaczony jest zarówno dla dzieci
-jak i dorosłych.
+Celem KLettres jest pomoc w nauce alfabetu i czytania różnych sylab w
+różnych językach. Program ma pomagać uczyć się pierwszych dźwięków
+nowego języka, przeznaczony jest zarówno dla dzieci jak i dorosłych.
 
 %package data
 Summary:	Data files for %{kaname}
